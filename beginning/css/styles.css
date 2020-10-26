@@ -1,0 +1,81 @@
+body {
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+#disp_count {
+    font-weight: bold;
+}
+    
+    input[type="text"] {
+    width: 20em;
+    padding: 5px 0;
+    margin-bottom: 1em;
+
+}
+.empName {
+    margin-left: 38px;
+    border-color:#5b9bd5; 
+}
+.empTitle {
+    margin-left: 46px;
+    border-color:#5b9bd5; 
+}
+.empExte {
+    margin-left: 10px;
+    border-color:#5b9bd5; 
+}
+.addEmp {
+    margin-left: 275px;
+    padding: 5px 25px;
+    background-color: #5b9bd5;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border-color:#5b9bd5; 
+}
+.deleteEmp {
+    padding: 5px 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #5b9bd5;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border-color:#5b9bd5; 
+}
+#nameError, #titleError, #extensionError {
+    color: red;
+}
+table  {
+    border: 1px solid black;
+    border-color: none;
+    border-style: none;
+    width: 50%;
+    height: 5px;
+    
+
+  }
+  th {
+    background-color:#5b9bd5;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+  }
+  td {
+      text-align: left;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      padding-left: 5px;
+    }
+td:last-child {
+    text-align: center;
+}
+tr:nth-child(even) {
+        background-color: #d2deef;
+  }
+tr:nth-child(odd) {
+    background-color: #eaeff7;
+}
